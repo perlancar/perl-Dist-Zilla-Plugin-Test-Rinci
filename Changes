@@ -1,5 +1,11 @@
 Revision history for Dist-Zilla-Test-Rinci
 
+0.02    2015-03-25 (PERLANCAR)
+
+	- Add comment in the produced test script about the file being
+	  automatically generated.
+
+
 0.01     2012-10-31 (SHARYANTO)
 
          - First release.

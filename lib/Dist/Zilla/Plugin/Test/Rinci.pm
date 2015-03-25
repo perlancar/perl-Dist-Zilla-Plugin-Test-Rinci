@@ -1,12 +1,13 @@
 package Dist::Zilla::Plugin::Test::Rinci;
 
+# DATE
+# VERSION
+
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 with 'Dist::Zilla::Role::PrereqSource';
 
 use namespace::autoclean;
-
-# VERSION
 
 # Register the release test prereq as a "develop requires"
 # so it will be listed in "dzil listdeps --author"
@@ -25,6 +26,8 @@ sub register_prereqs {
 __PACKAGE__->meta->make_immutable;
 1;
 # ABSTRACT: A release test for Rinci metadata
+
+=for Pod::Coverage .+
 
 =head1 DESCRIPTION
 
