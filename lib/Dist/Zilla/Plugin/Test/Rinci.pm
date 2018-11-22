@@ -22,7 +22,7 @@ sub register_prereqs {
             type  => 'requires',
             phase => 'develop',
         },
-        'Test::Rinci' => '0.01',
+        'Test::Rinci' => '0.151',
     );
 }
 
