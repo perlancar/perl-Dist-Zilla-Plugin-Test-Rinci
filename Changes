@@ -1,3 +1,8 @@
+0.040   2018-11-22 (PERLANCAR)
+
+	- Bump generated prereq version Test::Rinci 0.01 -> 0.151.
+
+
 0.03    2015-09-11 (PERLANCAR)
 
 	- Only adds xt/release/rinci.t if dist defines Rinci metadata, this
