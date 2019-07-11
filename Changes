@@ -1,21 +1,21 @@
-0.040   2018-11-22 (PERLANCAR)
+0.040   2018-11-22  Released-By: PERLANCAR
 
 	- Bump generated prereq version Test::Rinci 0.01 -> 0.151.
 
 
-0.03    2015-09-11 (PERLANCAR)
+0.03    2015-09-11  Released-By: PERLANCAR
 
 	- Only adds xt/release/rinci.t if dist defines Rinci metadata, this
 	  avoids needless dependencies to Test::Rinci when there is no
 	  Rinci metadata to test.
 
 
-0.02    2015-03-25 (PERLANCAR)
+0.02    2015-03-25  Released-By: PERLANCAR
 
 	- Add comment in the produced test script about the file being
 	  automatically generated.
 
 
-0.01     2012-10-31 (SHARYANTO)
+0.01     2012-10-31  Released-By: SHARYANTO
 
          - First release.
